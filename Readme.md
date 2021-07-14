@@ -12,7 +12,9 @@
 - 977. Squares of a Sorted Array
 - 1089. Duplicate Zeros
 - 1295. Find Numbers with Even Number of Digits
+- 1313. Decompress Run-Length Encoded List
 - 1365. How Many Numbers Are Smaller Than the Current Number
+- 1389. Create Target Array in the Given Order
 - 1431. Kids With the Greatest Number of Candies
 - 1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts
 - 1470. Shuffle the Array
