@@ -47,5 +47,39 @@ public:
         return s2 == t2;
     }
 };
+
+// With stack
+class Solution {
+public:
+    bool backspaceCompare(string s, string t) {
+        
+        string i = "", j = "";
+        stack<char> st;
+
+        for(auto i:s)
+        {
+            if(i != '#') st.push(i);
+            else if(!st.empty()) st.pop();
+        }
+        while(!st.empty())
+        {
+            i+=st.top();
+            st.pop();
+        }
+
+        for(auto i:t)
+        {
+            if(i != '#')    st.push(i);
+            else if(!st.empty())    st.pop();
+        }
+        while(!st.empty())
+        {
+            j+= st.top();
+            st.pop();
+        }
+
+        return i==j;
+    }
+};
 // @lc code=end
 
