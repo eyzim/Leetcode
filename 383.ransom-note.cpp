@@ -18,28 +18,25 @@ public:
 
         unordered_map<char, int> mp;
   
-        // count how much resources/chars from magazines we get
-        for(auto i:magazine){
+        // count the occurrences of each character in the magazine
+        for(auto i:magazine) {
             mp[i]++;
         }
 
-        // check one by one of ransomNote, if we have enough chars, keep going; 
-        // if we are lacking of chars, return false.
-        // if we finished ransomNote, return true.
-        for(auto j:ransomNote)
-        {
-            if(mp[j])
-            {
-                mp[j]--;
-
+        // check if there are enough resources (characters) available in the magazine to construct the ransomNote
+        for(auto i:ransomNote) {
+            if(mp[i]) {
+                mp[i]--;
             }
-            else
-            {
+            else {
                 return false;
             }
-        }  
+        }
 
         return true;
     }
 };
 // @lc code=end
+
+// Space: O(n)
+// Time: O(m+n)
