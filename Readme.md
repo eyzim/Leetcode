@@ -8,6 +8,7 @@
 - [17.letter combinations of a phone number](./1-100/17.letter-combinations-of-a-phone-number.cpp)
 - [26.remove duplicates from sorted array](./1-100/26.remove-duplicates-from-sorted-array.cpp)
 - [27.remove element](./1-100/27.remove-element.cpp)
+- [50.pow x n](./1-100/50.pow-x-n.cpp)
 - [54.spiral matrix](./1-100/54.spiral-matrix.cpp)
 - [57.insert interval](./1-100/57.insert-interval.cpp)
 - [59.spiral matrix ii](./1-100/59.spiral-matrix-ii.cpp)
@@ -24,6 +25,11 @@
 
 ## 101-200
 - [100.same tree](./101-200/100.same-tree.cpp)
+- [101.symmetric tree](./101-200/101.symmetric-tree.cpp)
+- [104.maximum depth of binary tree](./101-200/104.maximum-depth-of-binary-tree.cpp)
+- [111.minimum depth of binary tree](./101-200/111.minimum-depth-of-binary-tree.cpp)
+- [112.path sum](./101-200/112.path-sum.cpp)
+- [113.path sum ii](./101-200/113.path-sum-ii.cpp)
 - [121.best time to buy and sell stock](./101-200/121.best-time-to-buy-and-sell-stock.cpp)
 - [136.single number](./101-200/136.single-number.cpp)
 - [144.binary tree preorder traversal](./101-200/144.binary-tree-preorder-traversal.cpp)
@@ -58,6 +64,7 @@
 - [392.is subsequence](./301-400/392.is-subsequence.cpp)
 
 ## 401-500
+- [404.sum of left leaves](./401-500/404.sum-of-left-leaves.cpp)
 - [405.convert a number to hexadecimal](./401-500/405.convert-a-number-to-hexadecimal.cpp)
 - [476.number complement](./401-500/476.number-complement.cpp)
 - [485.max consecutive ones](./401-500/485.max-consecutive-ones.cpp)
@@ -65,6 +72,8 @@
 ## 501-600
 - [557.reverse words in a string iii](./501-600/557.reverse-words-in-a-string-iii.cpp)
 - [561.array partition](./501-600/561.array-partition.cpp)
+- [589.n ary tree preorder traversal](./501-600/589.n-ary-tree-preorder-traversal.cpp)
+- [590.n ary tree postorder traversal](./501-600/590.n-ary-tree-postorder-traversal.cpp)
 - [592.fraction addition and subtraction](./501-600/592.fraction-addition-and-subtraction.cpp)
 
 ## 601-700
