@@ -8,6 +8,7 @@
 - [17.letter combinations of a phone number](./1-100/17.letter-combinations-of-a-phone-number.cpp)
 - [26.remove duplicates from sorted array](./1-100/26.remove-duplicates-from-sorted-array.cpp)
 - [27.remove element](./1-100/27.remove-element.cpp)
+- [48.rotate image](./1-100/48.rotate-image.cpp)
 - [50.pow x n](./1-100/50.pow-x-n.cpp)
 - [54.spiral matrix](./1-100/54.spiral-matrix.cpp)
 - [57.insert interval](./1-100/57.insert-interval.cpp)
@@ -35,6 +36,7 @@
 - [113.path sum ii](./101-200/113.path-sum-ii.cpp)
 - [114.flatten binary tree to linked list](./101-200/114.flatten-binary-tree-to-linked-list.cpp)
 - [121.best time to buy and sell stock](./101-200/121.best-time-to-buy-and-sell-stock.cpp)
+- [128.longest consecutive sequence](./101-200/128.longest-consecutive-sequence.cpp)
 - [136.single number](./101-200/136.single-number.cpp)
 - [144.binary tree preorder traversal](./101-200/144.binary-tree-preorder-traversal.cpp)
 - [145.binary tree postorder traversal](./101-200/145.binary-tree-postorder-traversal.cpp)
@@ -44,6 +46,7 @@
 - [191.number of 1 bits](./101-200/191.number-of-1-bits.cpp)
 
 ## 201-300
+- [200.number of islands](./201-300/200.number-of-islands.cpp)
 - [205.isomorphic strings](./201-300/205.isomorphic-strings.cpp)
 - [209.minimum size subarray sum](./201-300/209.minimum-size-subarray-sum.cpp)
 - [217.contains duplicate](./201-300/217.contains-duplicate.cpp)
@@ -54,6 +57,7 @@
 - [231.power of two](./201-300/231.power-of-two.cpp)
 - [232.implement queue using stacks](./201-300/232.implement-queue-using-stacks.cpp)
 - [238.product of array except self](./201-300/238.product-of-array-except-self.cpp)
+- [242.valid anagram](./201-300/242.valid-anagram.cpp)
 - [257.binary tree paths](./201-300/257.binary-tree-paths.cpp)
 - [263.ugly number](./201-300/263.ugly-number.cpp)
 - [278.first bad version](./201-300/278.first-bad-version.cpp)
@@ -71,6 +75,7 @@
 ## 401-500
 - [404.sum of left leaves](./401-500/404.sum-of-left-leaves.cpp)
 - [405.convert a number to hexadecimal](./401-500/405.convert-a-number-to-hexadecimal.cpp)
+- [463.island perimeter](./401-500/463.island-perimeter.cpp)
 - [476.number complement](./401-500/476.number-complement.cpp)
 - [485.max consecutive ones](./401-500/485.max-consecutive-ones.cpp)
 
@@ -84,10 +89,12 @@
 ## 601-700
 - [605.can place flowers](./601-700/605.can-place-flowers.cpp)
 - [628.maximum product of three numbers](./601-700/628.maximum-product-of-three-numbers.cpp)
+- [695.max area of island](./601-700/695.max-area-of-island.cpp)
 
 ## 701-800
 - [703.kth largest element in a stream](./701-800/703.kth-largest-element-in-a-stream.cpp)
 - [705.design hash set](./701-800/705.design-hash-set.cpp)
+- [733.flood fill](./701-800/733.flood-fill.cpp)
 - [744.find smallest letter greater than target](./701-800/744.find-smallest-letter-greater-than-target.cpp)
 - [791.custom sort string](./701-800/791.custom-sort-string.cpp)
 
@@ -149,6 +156,7 @@
 - [1837.sum of digits in base k](./1801-1900/1837.sum-of-digits-in-base-k.cpp)
 
 ## 1901-2000
+- [1905.count sub islands](./1901-2000/1905.count-sub-islands.cpp)
 - [1985.find the kth largest integer in the array](./1901-2000/1985.find-the-kth-largest-integer-in-the-array.cpp)
 
 ## 2001-2100
