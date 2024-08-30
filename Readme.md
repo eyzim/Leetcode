@@ -52,6 +52,7 @@
 - [217.contains duplicate](./201-300/217.contains-duplicate.cpp)
 - [219.contains duplicate ii](./201-300/219.contains-duplicate-ii.cpp)
 - [225.implement stack using queues](./201-300/225.implement-stack-using-queues.cpp)
+- [226.invert binary tree](./201-300/226.invert-binary-tree.cpp)
 - [228.summary ranges](./201-300/228.summary-ranges.cpp)
 - [230.kth smallest element in a bst](./201-300/230.kth-smallest-element-in-a-bst.cpp)
 - [231.power of two](./201-300/231.power-of-two.cpp)
@@ -80,15 +81,22 @@
 - [485.max consecutive ones](./401-500/485.max-consecutive-ones.cpp)
 
 ## 501-600
+- [543.diameter of binary tree](./501-600/543.diameter-of-binary-tree.cpp)
 - [557.reverse words in a string iii](./501-600/557.reverse-words-in-a-string-iii.cpp)
+- [559.maximum depth of n ary tree](./501-600/559.maximum-depth-of-n-ary-tree.cpp)
 - [561.array partition](./501-600/561.array-partition.cpp)
+- [563.binary tree tilt](./501-600/563.binary-tree-tilt.cpp)
+- [572.subtree of another tree](./501-600/572.subtree-of-another-tree.cpp)
 - [589.n ary tree preorder traversal](./501-600/589.n-ary-tree-preorder-traversal.cpp)
 - [590.n ary tree postorder traversal](./501-600/590.n-ary-tree-postorder-traversal.cpp)
 - [592.fraction addition and subtraction](./501-600/592.fraction-addition-and-subtraction.cpp)
 
 ## 601-700
 - [605.can place flowers](./601-700/605.can-place-flowers.cpp)
+- [617.merge two binary trees](./601-700/617.merge-two-binary-trees.cpp)
 - [628.maximum product of three numbers](./601-700/628.maximum-product-of-three-numbers.cpp)
+- [637.average of levels in binary tree](./601-700/637.average-of-levels-in-binary-tree.cpp)
+- [671.second minimum node in a binary tree](./601-700/671.second-minimum-node-in-a-binary-tree.cpp)
 - [695.max area of island](./601-700/695.max-area-of-island.cpp)
 
 ## 701-800
