@@ -24,12 +24,16 @@
 - [88.merge sorted array](./1-100/88.merge-sorted-array.cpp)
 - [94.binary tree inorder traversal](./1-100/94.binary-tree-inorder-traversal.cpp)
 - [98.validate binary search tree](./1-100/98.validate-binary-search-tree.cpp)
+- [99.recover binary search tree](./1-100/99.recover-binary-search-tree.cpp)
 
 ## 101-200
 - [100.same tree](./101-200/100.same-tree.cpp)
 - [101.symmetric tree](./101-200/101.symmetric-tree.cpp)
 - [104.maximum depth of binary tree](./101-200/104.maximum-depth-of-binary-tree.cpp)
+- [105.construct binary tree from preorder and inorder traversal](./101-200/105.construct-binary-tree-from-preorder-and-inorder-traversal.cpp)
+- [106.construct binary tree from inorder and postorder traversal](./101-200/106.construct-binary-tree-from-inorder-and-postorder-traversal.cpp)
 - [108.convert sorted array to binary search tree](./101-200/108.convert-sorted-array-to-binary-search-tree.cpp)
+- [109.convert sorted list to binary search tree](./101-200/109.convert-sorted-list-to-binary-search-tree.cpp)
 - [110.balanced binary tree](./101-200/110.balanced-binary-tree.cpp)
 - [111.minimum depth of binary tree](./101-200/111.minimum-depth-of-binary-tree.cpp)
 - [112.path sum](./101-200/112.path-sum.cpp)
@@ -37,6 +41,7 @@
 - [114.flatten binary tree to linked list](./101-200/114.flatten-binary-tree-to-linked-list.cpp)
 - [121.best time to buy and sell stock](./101-200/121.best-time-to-buy-and-sell-stock.cpp)
 - [128.longest consecutive sequence](./101-200/128.longest-consecutive-sequence.cpp)
+- [129.sum root to leaf numbers](./101-200/129.sum-root-to-leaf-numbers.cpp)
 - [136.single number](./101-200/136.single-number.cpp)
 - [144.binary tree preorder traversal](./101-200/144.binary-tree-preorder-traversal.cpp)
 - [145.binary tree postorder traversal](./101-200/145.binary-tree-postorder-traversal.cpp)
@@ -169,6 +174,7 @@
 
 ## 2001-2100
 - [2000.reverse prefix of word](./2001-2100/2000.reverse-prefix-of-word.cpp)
+- [2022.convert 1 d array into 2 d array](./2001-2100/2022.convert-1-d-array-into-2-d-array.cpp)
 
 ## 2201-2300
 - [2215.find the difference of two arrays](./2201-2300/2215.find-the-difference-of-two-arrays.cpp)
