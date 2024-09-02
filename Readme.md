@@ -54,6 +54,7 @@
 - [200.number of islands](./201-300/200.number-of-islands.cpp)
 - [205.isomorphic strings](./201-300/205.isomorphic-strings.cpp)
 - [209.minimum size subarray sum](./201-300/209.minimum-size-subarray-sum.cpp)
+- [215.kth largest element in an array](./201-300/215.kth-largest-element-in-an-array.cpp)
 - [217.contains duplicate](./201-300/217.contains-duplicate.cpp)
 - [219.contains duplicate ii](./201-300/219.contains-duplicate-ii.cpp)
 - [225.implement stack using queues](./201-300/225.implement-stack-using-queues.cpp)
@@ -102,6 +103,7 @@
 - [628.maximum product of three numbers](./601-700/628.maximum-product-of-three-numbers.cpp)
 - [637.average of levels in binary tree](./601-700/637.average-of-levels-in-binary-tree.cpp)
 - [671.second minimum node in a binary tree](./601-700/671.second-minimum-node-in-a-binary-tree.cpp)
+- [692.top k frequent words](./601-700/692.top-k-frequent-words.cpp)
 - [695.max area of island](./601-700/695.max-area-of-island.cpp)
 
 ## 701-800
@@ -146,6 +148,7 @@
 
 ## 1401-1500
 - [1431.kids with the greatest number of candies](./1401-1500/1431.kids-with-the-greatest-number-of-candies.cpp)
+- [1464.maximum product of two elements in an array](./1401-1500/1464.maximum-product-of-two-elements-in-an-array.cpp)
 - [1465.maximum area of a piece of cake after horizontal and vertical cuts](./1401-1500/1465.maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts.cpp)
 - [1470.shuffle the array](./1401-1500/1470.shuffle-the-array.cpp)
 - [1480.running sum of 1 d array](./1401-1500/1480.running-sum-of-1-d-array.cpp)
@@ -167,6 +170,7 @@
 ## 1801-1900
 - [1822.sign of the product of an array](./1801-1900/1822.sign-of-the-product-of-an-array.cpp)
 - [1837.sum of digits in base k](./1801-1900/1837.sum-of-digits-in-base-k.cpp)
+- [1894.find the student that will replace the chalk](./1801-1900/1894.find-the-student-that-will-replace-the-chalk.cpp)
 
 ## 1901-2000
 - [1905.count sub islands](./1901-2000/1905.count-sub-islands.cpp)
@@ -182,3 +186,6 @@
 
 ## 2501-2600
 - [2540.minimum common value](./2501-2600/2540.minimum-common-value.cpp)
+
+## 2901-3000
+- [2974.minimum number game](./2901-3000/2974.minimum-number-game.cpp)

@@ -2,75 +2,51 @@
  * @lc app=leetcode id=1337 lang=cpp
  *
  * [1337] The K Weakest Rows in a Matrix
+ *
+ * @brief The implementation of the Solution class, which is used to find the k
+ * weakest rows in a matrix.
+ *
+ * The Solution class provides a method, kWeakestRows, that takes a 2D vector of
+ * integers and an integer k as input and returns a vector of integers
+ * representing the k weakest rows in the matrix. The method uses a min heap to
+ * store the number of soldiers and the row index. It iterates over the matrix
+ * and counts the number of soldiers in each row. It pushes the number of
+ * soldiers and the row index into the min heap. It creates a vector to store
+ * the k weakest rows and pops the top k elements from the min heap.
+ *
+ * Algorithm Complexity:
+ * - The kWeakestRows method has a time complexity of O(m*n*log(m)), where m is
+ * the number of rows and n is the number of columns in the matrix.
+ * - The space complexity of the method is O(m), where m is the number of rows
+ * in the matrix.
  */
 
 // @lc code=start
-class SolutionBrute&
-Multimap{public : vector<int> kWeakestRows(vector<vector<int>> & mat, int k){
-
-	// store the weakest k value
-	multimap<int, int> mp;
-
-// traverse all of the rows
-for (auto i = 0; i < mat.size(); i++) {
-	int soldiers = 0;
-
-	for (auto j = 0; j < mat[0].size(); j++) {
-		if (mat[i][j])
-			soldiers++;
-	}
-
-	mp.insert(make_pair(soldiers, i));
-}
-
-vector<int> ans;
-
-auto it = mp.begin();
-for (auto i = 0; i < k && it != mp.end(); i++, it++) {
-	ans.push_back(it->second);
-}
-
-return ans;
-}
-}
-;
-
 class Solution {
    public:
 	vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
-		priority_queue<pair<int, int>> pq;
+		// Create a min heap to store the number of soldiers and the row index.
+		priority_queue<pair<int, int>, vector<pair<int, int>>,
+					   greater<pair<int, int>>>
+			pq;
 
-		int l = mat[0].size() - 1;
-
-		// go through with the count of the row
+		// Iterate over the matrix and count the number of soldiers in each row.
 		for (auto i = 0; i < mat.size(); i++) {
-			int start = 0, end = l, soldiers = 0;
-			while (start <= end) {
-				int mid = start + (end - start) / 2;
-				if (mat[i][mid]) {
-					soldiers = mid + 1;
-					start = mid + 1;
-				} else {
-					end = mid - 1;
-				}
+			int sol = 0;
+			for (auto j = 0; j < mat[i].size(); j++) {
+				if (mat[i][j])
+					sol++;
 			}
-
-			pq.push({soldiers, i});
-
-			// clean up the overflow elements
-			if (pq.size() > k) {
-				pq.pop();
-			}
+			// Push the number of soldiers and the row index into the min heap.
+			pq.push(make_pair(sol, i));
 		}
 
-		// pop out the k smallest element
-		vector<int> ans;
-		while (!pq.empty()) {
-			ans.push_back(pq.top().second);
+		// Create a vector to store the k weakest rows.
+		vector<int> ans(k);
+		for (auto i = 0; i < k; i++) {
+			ans[i] = pq.top().second;
 			pq.pop();
 		}
-
-		reverse(ans.begin(), ans.end());
 
 		return ans;
 	}
