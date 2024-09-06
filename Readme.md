@@ -2,12 +2,18 @@
 
 ## 1-100
 - [1.two sum](./1-100/1.two-sum.cpp)
+- [2.add two numbers](./1-100/2.add-two-numbers.cpp)
+- [7.reverse integer](./1-100/7.reverse-integer.cpp)
 - [8.string to integer atoi](./1-100/8.string-to-integer-atoi.cpp)
 - [9.palindrome number](./1-100/9.palindrome-number.cpp)
 - [11.container with most water](./1-100/11.container-with-most-water.cpp)
 - [17.letter combinations of a phone number](./1-100/17.letter-combinations-of-a-phone-number.cpp)
+- [19.remove nth node from end of list](./1-100/19.remove-nth-node-from-end-of-list.cpp)
+- [20.valid parentheses](./1-100/20.valid-parentheses.cpp)
+- [21.merge two sorted lists](./1-100/21.merge-two-sorted-lists.cpp)
 - [26.remove duplicates from sorted array](./1-100/26.remove-duplicates-from-sorted-array.cpp)
 - [27.remove element](./1-100/27.remove-element.cpp)
+- [36.valid sudoku](./1-100/36.valid-sudoku.cpp)
 - [48.rotate image](./1-100/48.rotate-image.cpp)
 - [50.pow x n](./1-100/50.pow-x-n.cpp)
 - [54.spiral matrix](./1-100/54.spiral-matrix.cpp)
@@ -63,18 +69,23 @@
 - [230.kth smallest element in a bst](./201-300/230.kth-smallest-element-in-a-bst.cpp)
 - [231.power of two](./201-300/231.power-of-two.cpp)
 - [232.implement queue using stacks](./201-300/232.implement-queue-using-stacks.cpp)
+- [234.palindrome linked list](./201-300/234.palindrome-linked-list.cpp)
 - [238.product of array except self](./201-300/238.product-of-array-except-self.cpp)
 - [242.valid anagram](./201-300/242.valid-anagram.cpp)
 - [257.binary tree paths](./201-300/257.binary-tree-paths.cpp)
 - [263.ugly number](./201-300/263.ugly-number.cpp)
+- [264.ugly number ii](./201-300/264.ugly-number-ii.cpp)
 - [278.first bad version](./201-300/278.first-bad-version.cpp)
 - [283.move zeroes](./201-300/283.move-zeroes.cpp)
 - [290.word pattern](./201-300/290.word-pattern.cpp)
+- [295.find median from data stream](./201-300/295.find-median-from-data-stream.cpp)
 
 ## 301-400
+- [338.counting bits](./301-400/338.counting-bits.cpp)
 - [347.top k frequent elements](./301-400/347.top-k-frequent-elements.cpp)
 - [349.intersection of two arrays](./301-400/349.intersection-of-two-arrays.cpp)
 - [350.intersection of two arrays ii](./301-400/350.intersection-of-two-arrays-ii.cpp)
+- [373.find k pairs with smallest sums](./301-400/373.find-k-pairs-with-smallest-sums.cpp)
 - [383.ransom note](./301-400/383.ransom-note.cpp)
 - [387.first unique character in a string](./301-400/387.first-unique-character-in-a-string.cpp)
 - [392.is subsequence](./301-400/392.is-subsequence.cpp)
@@ -82,17 +93,21 @@
 ## 401-500
 - [404.sum of left leaves](./401-500/404.sum-of-left-leaves.cpp)
 - [405.convert a number to hexadecimal](./401-500/405.convert-a-number-to-hexadecimal.cpp)
+- [451.sort characters by frequency](./401-500/451.sort-characters-by-frequency.cpp)
 - [463.island perimeter](./401-500/463.island-perimeter.cpp)
 - [476.number complement](./401-500/476.number-complement.cpp)
 - [485.max consecutive ones](./401-500/485.max-consecutive-ones.cpp)
+- [496.next greater element i](./401-500/496.next-greater-element-i.cpp)
 
 ## 501-600
+- [506.relative ranks](./501-600/506.relative-ranks.cpp)
 - [543.diameter of binary tree](./501-600/543.diameter-of-binary-tree.cpp)
 - [557.reverse words in a string iii](./501-600/557.reverse-words-in-a-string-iii.cpp)
 - [559.maximum depth of n ary tree](./501-600/559.maximum-depth-of-n-ary-tree.cpp)
 - [561.array partition](./501-600/561.array-partition.cpp)
 - [563.binary tree tilt](./501-600/563.binary-tree-tilt.cpp)
 - [572.subtree of another tree](./501-600/572.subtree-of-another-tree.cpp)
+- [575.distribute candies](./501-600/575.distribute-candies.cpp)
 - [589.n ary tree preorder traversal](./501-600/589.n-ary-tree-preorder-traversal.cpp)
 - [590.n ary tree postorder traversal](./501-600/590.n-ary-tree-postorder-traversal.cpp)
 - [592.fraction addition and subtraction](./501-600/592.fraction-addition-and-subtraction.cpp)
@@ -102,7 +117,9 @@
 - [617.merge two binary trees](./601-700/617.merge-two-binary-trees.cpp)
 - [628.maximum product of three numbers](./601-700/628.maximum-product-of-three-numbers.cpp)
 - [637.average of levels in binary tree](./601-700/637.average-of-levels-in-binary-tree.cpp)
+- [658.find k closest elements](./601-700/658.find-k-closest-elements.cpp)
 - [671.second minimum node in a binary tree](./601-700/671.second-minimum-node-in-a-binary-tree.cpp)
+- [682.baseball game](./601-700/682.baseball-game.cpp)
 - [692.top k frequent words](./601-700/692.top-k-frequent-words.cpp)
 - [695.max area of island](./601-700/695.max-area-of-island.cpp)
 
@@ -116,6 +133,7 @@
 ## 801-900
 - [844.backspace string compare](./801-900/844.backspace-string-compare.cpp)
 - [859.buddy strings](./801-900/859.buddy-strings.cpp)
+- [874.walking robot simulation](./801-900/874.walking-robot-simulation.cpp)
 - [877.stone game](./801-900/877.stone-game.cpp)
 - [885.spiral matrix iii](./801-900/885.spiral-matrix-iii.cpp)
 
@@ -140,9 +158,11 @@
 ## 1301-1400
 - [1313.decompress run length encoded list](./1301-1400/1313.decompress-run-length-encoded-list.cpp)
 - [1337.the k weakest rows in a matrix](./1301-1400/1337.the-k-weakest-rows-in-a-matrix.cpp)
+- [1338.reduce array size to the half](./1301-1400/1338.reduce-array-size-to-the-half.cpp)
 - [1342.number of steps to reduce a number to zero](./1301-1400/1342.number-of-steps-to-reduce-a-number-to-zero.cpp)
 - [1351.count negative numbers in a sorted matrix](./1301-1400/1351.count-negative-numbers-in-a-sorted-matrix.cpp)
 - [1365.how many numbers are smaller than the current number](./1301-1400/1365.how-many-numbers-are-smaller-than-the-current-number.cpp)
+- [1367.linked list in binary tree](./1301-1400/1367.linked-list-in-binary-tree.cpp)
 - [1389.create target array in the given order](./1301-1400/1389.create-target-array-in-the-given-order.cpp)
 - [1396.design underground system](./1301-1400/1396.design-underground-system.cpp)
 
@@ -170,22 +190,35 @@
 ## 1801-1900
 - [1822.sign of the product of an array](./1801-1900/1822.sign-of-the-product-of-an-array.cpp)
 - [1837.sum of digits in base k](./1801-1900/1837.sum-of-digits-in-base-k.cpp)
+- [1845.seat reservation manager](./1801-1900/1845.seat-reservation-manager.cpp)
 - [1894.find the student that will replace the chalk](./1801-1900/1894.find-the-student-that-will-replace-the-chalk.cpp)
 
 ## 1901-2000
 - [1905.count sub islands](./1901-2000/1905.count-sub-islands.cpp)
+- [1920.build array from permutation](./1901-2000/1920.build-array-from-permutation.cpp)
+- [1929.concatenation of array](./1901-2000/1929.concatenation-of-array.cpp)
 - [1985.find the kth largest integer in the array](./1901-2000/1985.find-the-kth-largest-integer-in-the-array.cpp)
 
 ## 2001-2100
 - [2000.reverse prefix of word](./2001-2100/2000.reverse-prefix-of-word.cpp)
 - [2022.convert 1 d array into 2 d array](./2001-2100/2022.convert-1-d-array-into-2-d-array.cpp)
+- [2028.find missing observations](./2001-2100/2028.find-missing-observations.cpp)
 
 ## 2201-2300
 - [2215.find the difference of two arrays](./2201-2300/2215.find-the-difference-of-two-arrays.cpp)
 - [2248.intersection of multiple arrays](./2201-2300/2248.intersection-of-multiple-arrays.cpp)
 
+## 2301-2400
+- [2336.smallest number in infinite set](./2301-2400/2336.smallest-number-in-infinite-set.cpp)
+- [2357.make array zero by subtracting equal amounts](./2301-2400/2357.make-array-zero-by-subtracting-equal-amounts.cpp)
+
 ## 2501-2600
+- [2500.delete greatest value in each row](./2501-2600/2500.delete-greatest-value-in-each-row.cpp)
 - [2540.minimum common value](./2501-2600/2540.minimum-common-value.cpp)
 
 ## 2901-3000
 - [2974.minimum number game](./2901-3000/2974.minimum-number-game.cpp)
+
+## 3201-3300
+- [3217.delete nodes from linked list present in array](./3201-3300/3217.delete-nodes-from-linked-list-present-in-array.cpp)
+- [3264.final array state after k multiplication operations i](./3201-3300/3264.final-array-state-after-k-multiplication-operations-i.cpp)

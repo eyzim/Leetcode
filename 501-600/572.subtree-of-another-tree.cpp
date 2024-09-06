@@ -2,6 +2,23 @@
  * @lc app=leetcode id=572 lang=cpp
  *
  * [572] Subtree of Another Tree
+ *
+ * @brief The implementation of the Solution class, which is used to check if a
+ * binary tree is a subtree of another binary tree.
+ *
+ * The solution uses a recursive approach to check if the binary tree is a
+ * subtree of another binary tree. The isSameTree function is used to check if
+ * two binary trees are the same. The isSubtree function is used to check if the
+ * subtree is in the left or right subtree of the root.
+ *
+ * Algorithm Complexity:
+ * - The isSameTree function has a time complexity of O(n), where n is the
+ * number of nodes in the binary tree.
+ * - The isSubtree function has a time complexity of O(n*m), where n is the
+ * number of nodes in the binary tree and m is the number of nodes in the
+ * subtree.
+ * - The space complexity of the solution is O(n), where n is the number of
+ * nodes in the binary tree.
  */
 
 // @lc code=start
