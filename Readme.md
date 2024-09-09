@@ -1,4 +1,35 @@
 # LeetCode in C++
+Total: 177
+---
+
+## Table of Contents
+
+- [1-100](#1-100)
+- [101-200](#101-200)
+- [201-300](#201-300)
+- [301-400](#301-400)
+- [401-500](#401-500)
+- [501-600](#501-600)
+- [601-700](#601-700)
+- [701-800](#701-800)
+- [801-900](#801-900)
+- [901-1000](#901-1000)
+- [1001-1100](#1001-1100)
+- [1101-1200](#1101-1200)
+- [1201-1300](#1201-1300)
+- [1301-1400](#1301-1400)
+- [1401-1500](#1401-1500)
+- [1501-1600](#1501-1600)
+- [1601-1700](#1601-1700)
+- [1701-1800](#1701-1800)
+- [1801-1900](#1801-1900)
+- [1901-2000](#1901-2000)
+- [2001-2100](#2001-2100)
+- [2201-2300](#2201-2300)
+- [2301-2400](#2301-2400)
+- [2501-2600](#2501-2600)
+- [2901-3000](#2901-3000)
+- [3201-3300](#3201-3300)
 
 ## 1-100
 - [1.two sum](./1-100/1.two-sum.cpp)
@@ -126,6 +157,7 @@
 ## 701-800
 - [703.kth largest element in a stream](./701-800/703.kth-largest-element-in-a-stream.cpp)
 - [705.design hash set](./701-800/705.design-hash-set.cpp)
+- [725.split linked list in parts](./701-800/725.split-linked-list-in-parts.cpp)
 - [733.flood fill](./701-800/733.flood-fill.cpp)
 - [744.find smallest letter greater than target](./701-800/744.find-smallest-letter-greater-than-target.cpp)
 - [791.custom sort string](./701-800/791.custom-sort-string.cpp)
@@ -136,6 +168,7 @@
 - [874.walking robot simulation](./801-900/874.walking-robot-simulation.cpp)
 - [877.stone game](./801-900/877.stone-game.cpp)
 - [885.spiral matrix iii](./801-900/885.spiral-matrix-iii.cpp)
+- [897.increasing order search tree](./801-900/897.increasing-order-search-tree.cpp)
 
 ## 901-1000
 - [905.sort array by parity](./901-1000/905.sort-array-by-parity.cpp)
@@ -144,6 +177,7 @@
 
 ## 1001-1100
 - [1002.find common characters](./1001-1100/1002.find-common-characters.cpp)
+- [1021.remove outermost parentheses](./1001-1100/1021.remove-outermost-parentheses.cpp)
 - [1089.duplicate zeros](./1001-1100/1089.duplicate-zeros.cpp)
 
 ## 1101-1200
@@ -171,6 +205,7 @@
 - [1464.maximum product of two elements in an array](./1401-1500/1464.maximum-product-of-two-elements-in-an-array.cpp)
 - [1465.maximum area of a piece of cake after horizontal and vertical cuts](./1401-1500/1465.maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts.cpp)
 - [1470.shuffle the array](./1401-1500/1470.shuffle-the-array.cpp)
+- [1475.final prices with a special discount in a shop](./1401-1500/1475.final-prices-with-a-special-discount-in-a-shop.cpp)
 - [1480.running sum of 1 d array](./1401-1500/1480.running-sum-of-1-d-array.cpp)
 - [1486.xor operation in an array](./1401-1500/1486.xor-operation-in-an-array.cpp)
 
@@ -181,6 +216,7 @@
 
 ## 1601-1700
 - [1603.design parking system](./1601-1700/1603.design-parking-system.cpp)
+- [1614.maximum nesting depth of the parentheses](./1601-1700/1614.maximum-nesting-depth-of-the-parentheses.cpp)
 - [1672.richest customer wealth](./1601-1700/1672.richest-customer-wealth.cpp)
 
 ## 1701-1800
@@ -209,6 +245,7 @@
 - [2248.intersection of multiple arrays](./2201-2300/2248.intersection-of-multiple-arrays.cpp)
 
 ## 2301-2400
+- [2326.spiral matrix iv](./2301-2400/2326.spiral-matrix-iv.cpp)
 - [2336.smallest number in infinite set](./2301-2400/2336.smallest-number-in-infinite-set.cpp)
 - [2357.make array zero by subtracting equal amounts](./2301-2400/2357.make-array-zero-by-subtracting-equal-amounts.cpp)
 
@@ -222,3 +259,4 @@
 ## 3201-3300
 - [3217.delete nodes from linked list present in array](./3201-3300/3217.delete-nodes-from-linked-list-present-in-array.cpp)
 - [3264.final array state after k multiplication operations i](./3201-3300/3264.final-array-state-after-k-multiplication-operations-i.cpp)
+
