@@ -1,5 +1,5 @@
 # LeetCode in C++
-Total: 177
+Total: 194
 ---
 
 ## Table of Contents
@@ -25,11 +25,15 @@ Total: 177
 - [1801-1900](#1801-1900)
 - [1901-2000](#1901-2000)
 - [2001-2100](#2001-2100)
+- [2101-2200](#2101-2200)
 - [2201-2300](#2201-2300)
 - [2301-2400](#2301-2400)
+- [2401-2500](#2401-2500)
 - [2501-2600](#2501-2600)
+- [2801-2900](#2801-2900)
 - [2901-3000](#2901-3000)
 - [3201-3300](#3201-3300)
+- [file](#file)
 
 ## 1-100
 - [1.two sum](./1-100/1.two-sum.cpp)
@@ -57,6 +61,7 @@ Total: 177
 - [74.search a 2 d matrix](./1-100/74.search-a-2-d-matrix.cpp)
 - [75.sort colors](./1-100/75.sort-colors.cpp)
 - [80.remove duplicates from sorted array ii](./1-100/80.remove-duplicates-from-sorted-array-ii.cpp)
+- [82.remove duplicates from sorted list ii](./1-100/82.remove-duplicates-from-sorted-list-ii.cpp)
 - [83.remove duplicates from sorted list](./1-100/83.remove-duplicates-from-sorted-list.cpp)
 - [88.merge sorted array](./1-100/88.merge-sorted-array.cpp)
 - [94.binary tree inorder traversal](./1-100/94.binary-tree-inorder-traversal.cpp)
@@ -66,9 +71,12 @@ Total: 177
 ## 101-200
 - [100.same tree](./101-200/100.same-tree.cpp)
 - [101.symmetric tree](./101-200/101.symmetric-tree.cpp)
+- [102.binary tree level order traversal](./101-200/102.binary-tree-level-order-traversal.cpp)
+- [103.binary tree zigzag level order traversal](./101-200/103.binary-tree-zigzag-level-order-traversal.cpp)
 - [104.maximum depth of binary tree](./101-200/104.maximum-depth-of-binary-tree.cpp)
 - [105.construct binary tree from preorder and inorder traversal](./101-200/105.construct-binary-tree-from-preorder-and-inorder-traversal.cpp)
 - [106.construct binary tree from inorder and postorder traversal](./101-200/106.construct-binary-tree-from-inorder-and-postorder-traversal.cpp)
+- [107.binary tree level order traversal ii](./101-200/107.binary-tree-level-order-traversal-ii.cpp)
 - [108.convert sorted array to binary search tree](./101-200/108.convert-sorted-array-to-binary-search-tree.cpp)
 - [109.convert sorted list to binary search tree](./101-200/109.convert-sorted-list-to-binary-search-tree.cpp)
 - [110.balanced binary tree](./101-200/110.balanced-binary-tree.cpp)
@@ -124,6 +132,7 @@ Total: 177
 ## 401-500
 - [404.sum of left leaves](./401-500/404.sum-of-left-leaves.cpp)
 - [405.convert a number to hexadecimal](./401-500/405.convert-a-number-to-hexadecimal.cpp)
+- [429.n ary tree level order traversal](./401-500/429.n-ary-tree-level-order-traversal.cpp)
 - [451.sort characters by frequency](./401-500/451.sort-characters-by-frequency.cpp)
 - [463.island perimeter](./401-500/463.island-perimeter.cpp)
 - [476.number complement](./401-500/476.number-complement.cpp)
@@ -174,15 +183,19 @@ Total: 177
 - [905.sort array by parity](./901-1000/905.sort-array-by-parity.cpp)
 - [922.sort array by parity ii](./901-1000/922.sort-array-by-parity-ii.cpp)
 - [977.squares of a sorted array](./901-1000/977.squares-of-a-sorted-array.cpp)
+- [993.cousins in binary tree](./901-1000/993.cousins-in-binary-tree.cpp)
 
 ## 1001-1100
 - [1002.find common characters](./1001-1100/1002.find-common-characters.cpp)
+- [1008.construct binary search tree from preorder traversal](./1001-1100/1008.construct-binary-search-tree-from-preorder-traversal.cpp)
 - [1021.remove outermost parentheses](./1001-1100/1021.remove-outermost-parentheses.cpp)
+- [1047.remove all adjacent duplicates in string](./1001-1100/1047.remove-all-adjacent-duplicates-in-string.cpp)
 - [1089.duplicate zeros](./1001-1100/1089.duplicate-zeros.cpp)
 
 ## 1101-1200
 - [1108.defanging an ip address](./1101-1200/1108.defanging-an-ip-address.cpp)
 - [1114.print in order](./1101-1200/1114.print-in-order.cpp)
+- [1161.maximum level sum of a binary tree](./1101-1200/1161.maximum-level-sum-of-a-binary-tree.cpp)
 
 ## 1201-1300
 - [1232.check if it is a straight line](./1201-1300/1232.check-if-it-is-a-straight-line.cpp)
@@ -190,6 +203,7 @@ Total: 177
 - [1295.find numbers with even number of digits](./1201-1300/1295.find-numbers-with-even-number-of-digits.cpp)
 
 ## 1301-1400
+- [1302.deepest leaves sum](./1301-1400/1302.deepest-leaves-sum.cpp)
 - [1313.decompress run length encoded list](./1301-1400/1313.decompress-run-length-encoded-list.cpp)
 - [1337.the k weakest rows in a matrix](./1301-1400/1337.the-k-weakest-rows-in-a-matrix.cpp)
 - [1338.reduce array size to the half](./1301-1400/1338.reduce-array-size-to-the-half.cpp)
@@ -202,6 +216,7 @@ Total: 177
 
 ## 1401-1500
 - [1431.kids with the greatest number of candies](./1401-1500/1431.kids-with-the-greatest-number-of-candies.cpp)
+- [1441.build an array with stack operations](./1401-1500/1441.build-an-array-with-stack-operations.cpp)
 - [1464.maximum product of two elements in an array](./1401-1500/1464.maximum-product-of-two-elements-in-an-array.cpp)
 - [1465.maximum area of a piece of cake after horizontal and vertical cuts](./1401-1500/1465.maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts.cpp)
 - [1470.shuffle the array](./1401-1500/1470.shuffle-the-array.cpp)
@@ -220,6 +235,7 @@ Total: 177
 - [1672.richest customer wealth](./1601-1700/1672.richest-customer-wealth.cpp)
 
 ## 1701-1800
+- [1700.number of students unable to eat lunch](./1701-1800/1700.number-of-students-unable-to-eat-lunch.cpp)
 - [1720.decode xo red array](./1701-1800/1720.decode-xo-red-array.cpp)
 - [1732.find the highest altitude](./1701-1800/1732.find-the-highest-altitude.cpp)
 
@@ -240,8 +256,12 @@ Total: 177
 - [2022.convert 1 d array into 2 d array](./2001-2100/2022.convert-1-d-array-into-2-d-array.cpp)
 - [2028.find missing observations](./2001-2100/2028.find-missing-observations.cpp)
 
+## 2101-2200
+- [2130.maximum twin sum of a linked list](./2101-2200/2130.maximum-twin-sum-of-a-linked-list.cpp)
+
 ## 2201-2300
 - [2215.find the difference of two arrays](./2201-2300/2215.find-the-difference-of-two-arrays.cpp)
+- [2220.minimum bit flips to convert number](./2201-2300/2220.minimum-bit-flips-to-convert-number.cpp)
 - [2248.intersection of multiple arrays](./2201-2300/2248.intersection-of-multiple-arrays.cpp)
 
 ## 2301-2400
@@ -249,9 +269,15 @@ Total: 177
 - [2336.smallest number in infinite set](./2301-2400/2336.smallest-number-in-infinite-set.cpp)
 - [2357.make array zero by subtracting equal amounts](./2301-2400/2357.make-array-zero-by-subtracting-equal-amounts.cpp)
 
+## 2401-2500
+- [2415.reverse odd levels of binary tree](./2401-2500/2415.reverse-odd-levels-of-binary-tree.cpp)
+
 ## 2501-2600
 - [2500.delete greatest value in each row](./2501-2600/2500.delete-greatest-value-in-each-row.cpp)
 - [2540.minimum common value](./2501-2600/2540.minimum-common-value.cpp)
+
+## 2801-2900
+- [2807.insert greatest common divisors in linked list](./2801-2900/2807.insert-greatest-common-divisors-in-linked-list.cpp)
 
 ## 2901-3000
 - [2974.minimum number game](./2901-3000/2974.minimum-number-game.cpp)
@@ -259,4 +285,7 @@ Total: 177
 ## 3201-3300
 - [3217.delete nodes from linked list present in array](./3201-3300/3217.delete-nodes-from-linked-list-present-in-array.cpp)
 - [3264.final array state after k multiplication operations i](./3201-3300/3264.final-array-state-after-k-multiplication-operations-i.cpp)
+
+## file
+- [tree](./file/tree.cpp)
 
