@@ -1,5 +1,6 @@
 # LeetCode in C++
-Total: 194
+Date: 2024/09/13
+Total: 215
 ---
 
 ## Table of Contents
@@ -46,6 +47,7 @@ Total: 194
 - [19.remove nth node from end of list](./1-100/19.remove-nth-node-from-end-of-list.cpp)
 - [20.valid parentheses](./1-100/20.valid-parentheses.cpp)
 - [21.merge two sorted lists](./1-100/21.merge-two-sorted-lists.cpp)
+- [24.swap nodes in pairs](./1-100/24.swap-nodes-in-pairs.cpp)
 - [26.remove duplicates from sorted array](./1-100/26.remove-duplicates-from-sorted-array.cpp)
 - [27.remove element](./1-100/27.remove-element.cpp)
 - [36.valid sudoku](./1-100/36.valid-sudoku.cpp)
@@ -88,12 +90,14 @@ Total: 194
 - [128.longest consecutive sequence](./101-200/128.longest-consecutive-sequence.cpp)
 - [129.sum root to leaf numbers](./101-200/129.sum-root-to-leaf-numbers.cpp)
 - [136.single number](./101-200/136.single-number.cpp)
+- [143.reorder list](./101-200/143.reorder-list.cpp)
 - [144.binary tree preorder traversal](./101-200/144.binary-tree-preorder-traversal.cpp)
 - [145.binary tree postorder traversal](./101-200/145.binary-tree-postorder-traversal.cpp)
 - [146.lru cache](./101-200/146.lru-cache.cpp)
 - [169.majority element](./101-200/169.majority-element.cpp)
 - [189.rotate array](./101-200/189.rotate-array.cpp)
 - [191.number of 1 bits](./101-200/191.number-of-1-bits.cpp)
+- [199.binary tree right side view](./101-200/199.binary-tree-right-side-view.cpp)
 
 ## 201-300
 - [200.number of islands](./201-300/200.number-of-islands.cpp)
@@ -109,6 +113,7 @@ Total: 194
 - [231.power of two](./201-300/231.power-of-two.cpp)
 - [232.implement queue using stacks](./201-300/232.implement-queue-using-stacks.cpp)
 - [234.palindrome linked list](./201-300/234.palindrome-linked-list.cpp)
+- [237.delete node in a linked list](./201-300/237.delete-node-in-a-linked-list.cpp)
 - [238.product of array except self](./201-300/238.product-of-array-except-self.cpp)
 - [242.valid anagram](./201-300/242.valid-anagram.cpp)
 - [257.binary tree paths](./201-300/257.binary-tree-paths.cpp)
@@ -127,6 +132,7 @@ Total: 194
 - [373.find k pairs with smallest sums](./301-400/373.find-k-pairs-with-smallest-sums.cpp)
 - [383.ransom note](./301-400/383.ransom-note.cpp)
 - [387.first unique character in a string](./301-400/387.first-unique-character-in-a-string.cpp)
+- [389.find the difference](./301-400/389.find-the-difference.cpp)
 - [392.is subsequence](./301-400/392.is-subsequence.cpp)
 
 ## 401-500
@@ -141,6 +147,9 @@ Total: 194
 
 ## 501-600
 - [506.relative ranks](./501-600/506.relative-ranks.cpp)
+- [513.find bottom left tree value](./501-600/513.find-bottom-left-tree-value.cpp)
+- [515.find largest value in each tree row](./501-600/515.find-largest-value-in-each-tree-row.cpp)
+- [530.minimum absolute difference in bst](./501-600/530.minimum-absolute-difference-in-bst.cpp)
 - [543.diameter of binary tree](./501-600/543.diameter-of-binary-tree.cpp)
 - [557.reverse words in a string iii](./501-600/557.reverse-words-in-a-string-iii.cpp)
 - [559.maximum depth of n ary tree](./501-600/559.maximum-depth-of-n-ary-tree.cpp)
@@ -157,6 +166,8 @@ Total: 194
 - [617.merge two binary trees](./601-700/617.merge-two-binary-trees.cpp)
 - [628.maximum product of three numbers](./601-700/628.maximum-product-of-three-numbers.cpp)
 - [637.average of levels in binary tree](./601-700/637.average-of-levels-in-binary-tree.cpp)
+- [653.two sum iv input is a bst](./601-700/653.two-sum-iv-input-is-a-bst.cpp)
+- [655.print binary tree](./601-700/655.print-binary-tree.cpp)
 - [658.find k closest elements](./601-700/658.find-k-closest-elements.cpp)
 - [671.second minimum node in a binary tree](./601-700/671.second-minimum-node-in-a-binary-tree.cpp)
 - [682.baseball game](./601-700/682.baseball-game.cpp)
@@ -166,15 +177,18 @@ Total: 194
 ## 701-800
 - [703.kth largest element in a stream](./701-800/703.kth-largest-element-in-a-stream.cpp)
 - [705.design hash set](./701-800/705.design-hash-set.cpp)
+- [709.to lower case](./701-800/709.to-lower-case.cpp)
 - [725.split linked list in parts](./701-800/725.split-linked-list-in-parts.cpp)
 - [733.flood fill](./701-800/733.flood-fill.cpp)
 - [744.find smallest letter greater than target](./701-800/744.find-smallest-letter-greater-than-target.cpp)
+- [783.minimum distance between bst nodes](./701-800/783.minimum-distance-between-bst-nodes.cpp)
 - [791.custom sort string](./701-800/791.custom-sort-string.cpp)
 
 ## 801-900
 - [844.backspace string compare](./801-900/844.backspace-string-compare.cpp)
 - [859.buddy strings](./801-900/859.buddy-strings.cpp)
 - [874.walking robot simulation](./801-900/874.walking-robot-simulation.cpp)
+- [876.middle of the linked list](./801-900/876.middle-of-the-linked-list.cpp)
 - [877.stone game](./801-900/877.stone-game.cpp)
 - [885.spiral matrix iii](./801-900/885.spiral-matrix-iii.cpp)
 - [897.increasing order search tree](./801-900/897.increasing-order-search-tree.cpp)
@@ -182,6 +196,7 @@ Total: 194
 ## 901-1000
 - [905.sort array by parity](./901-1000/905.sort-array-by-parity.cpp)
 - [922.sort array by parity ii](./901-1000/922.sort-array-by-parity-ii.cpp)
+- [965.univalued binary tree](./901-1000/965.univalued-binary-tree.cpp)
 - [977.squares of a sorted array](./901-1000/977.squares-of-a-sorted-array.cpp)
 - [993.cousins in binary tree](./901-1000/993.cousins-in-binary-tree.cpp)
 
@@ -204,13 +219,16 @@ Total: 194
 
 ## 1301-1400
 - [1302.deepest leaves sum](./1301-1400/1302.deepest-leaves-sum.cpp)
+- [1310.xor queries of a subarray](./1301-1400/1310.xor-queries-of-a-subarray.cpp)
 - [1313.decompress run length encoded list](./1301-1400/1313.decompress-run-length-encoded-list.cpp)
+- [1315.sum of nodes with even valued grandparent](./1301-1400/1315.sum-of-nodes-with-even-valued-grandparent.cpp)
 - [1337.the k weakest rows in a matrix](./1301-1400/1337.the-k-weakest-rows-in-a-matrix.cpp)
 - [1338.reduce array size to the half](./1301-1400/1338.reduce-array-size-to-the-half.cpp)
 - [1342.number of steps to reduce a number to zero](./1301-1400/1342.number-of-steps-to-reduce-a-number-to-zero.cpp)
 - [1351.count negative numbers in a sorted matrix](./1301-1400/1351.count-negative-numbers-in-a-sorted-matrix.cpp)
 - [1365.how many numbers are smaller than the current number](./1301-1400/1365.how-many-numbers-are-smaller-than-the-current-number.cpp)
 - [1367.linked list in binary tree](./1301-1400/1367.linked-list-in-binary-tree.cpp)
+- [1379.find a corresponding node of a binary tree in a clone of that tree](./1301-1400/1379.find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.cpp)
 - [1389.create target array in the given order](./1301-1400/1389.create-target-array-in-the-given-order.cpp)
 - [1396.design underground system](./1301-1400/1396.design-underground-system.cpp)
 
@@ -233,6 +251,7 @@ Total: 194
 - [1603.design parking system](./1601-1700/1603.design-parking-system.cpp)
 - [1614.maximum nesting depth of the parentheses](./1601-1700/1614.maximum-nesting-depth-of-the-parentheses.cpp)
 - [1672.richest customer wealth](./1601-1700/1672.richest-customer-wealth.cpp)
+- [1684.count the number of consistent strings](./1601-1700/1684.count-the-number-of-consistent-strings.cpp)
 
 ## 1701-1800
 - [1700.number of students unable to eat lunch](./1701-1800/1700.number-of-students-unable-to-eat-lunch.cpp)
@@ -253,6 +272,7 @@ Total: 194
 
 ## 2001-2100
 - [2000.reverse prefix of word](./2001-2100/2000.reverse-prefix-of-word.cpp)
+- [2011.final value of variable after performing operations](./2001-2100/2011.final-value-of-variable-after-performing-operations.cpp)
 - [2022.convert 1 d array into 2 d array](./2001-2100/2022.convert-1-d-array-into-2-d-array.cpp)
 - [2028.find missing observations](./2001-2100/2028.find-missing-observations.cpp)
 
@@ -271,6 +291,7 @@ Total: 194
 
 ## 2401-2500
 - [2415.reverse odd levels of binary tree](./2401-2500/2415.reverse-odd-levels-of-binary-tree.cpp)
+- [2471.minimum number of operations to sort a binary tree by level](./2401-2500/2471.minimum-number-of-operations-to-sort-a-binary-tree-by-level.cpp)
 
 ## 2501-2600
 - [2500.delete greatest value in each row](./2501-2600/2500.delete-greatest-value-in-each-row.cpp)
@@ -285,6 +306,7 @@ Total: 194
 ## 3201-3300
 - [3217.delete nodes from linked list present in array](./3201-3300/3217.delete-nodes-from-linked-list-present-in-array.cpp)
 - [3264.final array state after k multiplication operations i](./3201-3300/3264.final-array-state-after-k-multiplication-operations-i.cpp)
+- [3280.convert date to binary](./3201-3300/3280.convert-date-to-binary.cpp)
 
 ## file
 - [tree](./file/tree.cpp)

@@ -2,6 +2,7 @@
 echo "# LeetCode in C++" > Readme.md
 # count all cpp files
 cpp_files=$(find . -name "*.cpp" | wc -l)
+echo "Date: $(date +'%Y/%m/%d')" >> Readme.md
 echo "Total: $cpp_files" >> Readme.md
 echo "---" >> Readme.md
 echo "" >> Readme.md
