@@ -1,6 +1,6 @@
 # LeetCode in C++
-Date: 2024/09/13
-Total: 215
+Date: 2024/09/16
+Total: 225
 ---
 
 ## Table of Contents
@@ -39,6 +39,8 @@ Total: 215
 ## 1-100
 - [1.two sum](./1-100/1.two-sum.cpp)
 - [2.add two numbers](./1-100/2.add-two-numbers.cpp)
+- [3.longest substring without repeating characters](./1-100/3.longest-substring-without-repeating-characters.cpp)
+- [5.longest palindromic substring](./1-100/5.longest-palindromic-substring.cpp)
 - [7.reverse integer](./1-100/7.reverse-integer.cpp)
 - [8.string to integer atoi](./1-100/8.string-to-integer-atoi.cpp)
 - [9.palindrome number](./1-100/9.palindrome-number.cpp)
@@ -51,6 +53,7 @@ Total: 215
 - [26.remove duplicates from sorted array](./1-100/26.remove-duplicates-from-sorted-array.cpp)
 - [27.remove element](./1-100/27.remove-element.cpp)
 - [36.valid sudoku](./1-100/36.valid-sudoku.cpp)
+- [43.multiply strings](./1-100/43.multiply-strings.cpp)
 - [48.rotate image](./1-100/48.rotate-image.cpp)
 - [50.pow x n](./1-100/50.pow-x-n.cpp)
 - [54.spiral matrix](./1-100/54.spiral-matrix.cpp)
@@ -86,6 +89,7 @@ Total: 215
 - [112.path sum](./101-200/112.path-sum.cpp)
 - [113.path sum ii](./101-200/113.path-sum-ii.cpp)
 - [114.flatten binary tree to linked list](./101-200/114.flatten-binary-tree-to-linked-list.cpp)
+- [116.populating next right pointers in each node](./101-200/116.populating-next-right-pointers-in-each-node.cpp)
 - [121.best time to buy and sell stock](./101-200/121.best-time-to-buy-and-sell-stock.cpp)
 - [128.longest consecutive sequence](./101-200/128.longest-consecutive-sequence.cpp)
 - [129.sum root to leaf numbers](./101-200/129.sum-root-to-leaf-numbers.cpp)
@@ -106,6 +110,7 @@ Total: 215
 - [215.kth largest element in an array](./201-300/215.kth-largest-element-in-an-array.cpp)
 - [217.contains duplicate](./201-300/217.contains-duplicate.cpp)
 - [219.contains duplicate ii](./201-300/219.contains-duplicate-ii.cpp)
+- [220.contains duplicate iii](./201-300/220.contains-duplicate-iii.cpp)
 - [225.implement stack using queues](./201-300/225.implement-stack-using-queues.cpp)
 - [226.invert binary tree](./201-300/226.invert-binary-tree.cpp)
 - [228.summary ranges](./201-300/228.summary-ranges.cpp)
@@ -150,6 +155,7 @@ Total: 215
 - [513.find bottom left tree value](./501-600/513.find-bottom-left-tree-value.cpp)
 - [515.find largest value in each tree row](./501-600/515.find-largest-value-in-each-tree-row.cpp)
 - [530.minimum absolute difference in bst](./501-600/530.minimum-absolute-difference-in-bst.cpp)
+- [539.minimum time difference](./501-600/539.minimum-time-difference.cpp)
 - [543.diameter of binary tree](./501-600/543.diameter-of-binary-tree.cpp)
 - [557.reverse words in a string iii](./501-600/557.reverse-words-in-a-string-iii.cpp)
 - [559.maximum depth of n ary tree](./501-600/559.maximum-depth-of-n-ary-tree.cpp)
@@ -228,6 +234,7 @@ Total: 215
 - [1351.count negative numbers in a sorted matrix](./1301-1400/1351.count-negative-numbers-in-a-sorted-matrix.cpp)
 - [1365.how many numbers are smaller than the current number](./1301-1400/1365.how-many-numbers-are-smaller-than-the-current-number.cpp)
 - [1367.linked list in binary tree](./1301-1400/1367.linked-list-in-binary-tree.cpp)
+- [1371.find the longest substring containing vowels in even counts](./1301-1400/1371.find-the-longest-substring-containing-vowels-in-even-counts.cpp)
 - [1379.find a corresponding node of a binary tree in a clone of that tree](./1301-1400/1379.find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.cpp)
 - [1389.create target array in the given order](./1301-1400/1389.create-target-array-in-the-given-order.cpp)
 - [1396.design underground system](./1301-1400/1396.design-underground-system.cpp)
@@ -259,6 +266,7 @@ Total: 215
 - [1732.find the highest altitude](./1701-1800/1732.find-the-highest-altitude.cpp)
 
 ## 1801-1900
+- [1805.number of different integers in a string](./1801-1900/1805.number-of-different-integers-in-a-string.cpp)
 - [1822.sign of the product of an array](./1801-1900/1822.sign-of-the-product-of-an-array.cpp)
 - [1837.sum of digits in base k](./1801-1900/1837.sum-of-digits-in-base-k.cpp)
 - [1845.seat reservation manager](./1801-1900/1845.seat-reservation-manager.cpp)
@@ -275,6 +283,7 @@ Total: 215
 - [2011.final value of variable after performing operations](./2001-2100/2011.final-value-of-variable-after-performing-operations.cpp)
 - [2022.convert 1 d array into 2 d array](./2001-2100/2022.convert-1-d-array-into-2-d-array.cpp)
 - [2028.find missing observations](./2001-2100/2028.find-missing-observations.cpp)
+- [2038.remove colored pieces if both neighbors are the same color](./2001-2100/2038.remove-colored-pieces-if-both-neighbors-are-the-same-color.cpp)
 
 ## 2101-2200
 - [2130.maximum twin sum of a linked list](./2101-2200/2130.maximum-twin-sum-of-a-linked-list.cpp)
@@ -291,6 +300,7 @@ Total: 215
 
 ## 2401-2500
 - [2415.reverse odd levels of binary tree](./2401-2500/2415.reverse-odd-levels-of-binary-tree.cpp)
+- [2419.longest subarray with maximum bitwise and](./2401-2500/2419.longest-subarray-with-maximum-bitwise-and.cpp)
 - [2471.minimum number of operations to sort a binary tree by level](./2401-2500/2471.minimum-number-of-operations-to-sort-a-binary-tree-by-level.cpp)
 
 ## 2501-2600
