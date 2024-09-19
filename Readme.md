@@ -1,6 +1,6 @@
 # LeetCode in C++
-Date: 2024/09/16
-Total: 225
+Date: 2024/09/19
+Total: 234
 ---
 
 ## Table of Contents
@@ -49,11 +49,14 @@ Total: 225
 - [19.remove nth node from end of list](./1-100/19.remove-nth-node-from-end-of-list.cpp)
 - [20.valid parentheses](./1-100/20.valid-parentheses.cpp)
 - [21.merge two sorted lists](./1-100/21.merge-two-sorted-lists.cpp)
+- [22.generate parentheses](./1-100/22.generate-parentheses.cpp)
 - [24.swap nodes in pairs](./1-100/24.swap-nodes-in-pairs.cpp)
 - [26.remove duplicates from sorted array](./1-100/26.remove-duplicates-from-sorted-array.cpp)
 - [27.remove element](./1-100/27.remove-element.cpp)
 - [36.valid sudoku](./1-100/36.valid-sudoku.cpp)
 - [43.multiply strings](./1-100/43.multiply-strings.cpp)
+- [46.permutations](./1-100/46.permutations.cpp)
+- [47.permutations ii](./1-100/47.permutations-ii.cpp)
 - [48.rotate image](./1-100/48.rotate-image.cpp)
 - [50.pow x n](./1-100/50.pow-x-n.cpp)
 - [54.spiral matrix](./1-100/54.spiral-matrix.cpp)
@@ -90,16 +93,20 @@ Total: 225
 - [113.path sum ii](./101-200/113.path-sum-ii.cpp)
 - [114.flatten binary tree to linked list](./101-200/114.flatten-binary-tree-to-linked-list.cpp)
 - [116.populating next right pointers in each node](./101-200/116.populating-next-right-pointers-in-each-node.cpp)
+- [117.populating next right pointers in each node ii](./101-200/117.populating-next-right-pointers-in-each-node-ii.cpp)
 - [121.best time to buy and sell stock](./101-200/121.best-time-to-buy-and-sell-stock.cpp)
 - [128.longest consecutive sequence](./101-200/128.longest-consecutive-sequence.cpp)
 - [129.sum root to leaf numbers](./101-200/129.sum-root-to-leaf-numbers.cpp)
+- [130.surrounded regions](./101-200/130.surrounded-regions.cpp)
 - [136.single number](./101-200/136.single-number.cpp)
 - [143.reorder list](./101-200/143.reorder-list.cpp)
 - [144.binary tree preorder traversal](./101-200/144.binary-tree-preorder-traversal.cpp)
 - [145.binary tree postorder traversal](./101-200/145.binary-tree-postorder-traversal.cpp)
 - [146.lru cache](./101-200/146.lru-cache.cpp)
 - [169.majority element](./101-200/169.majority-element.cpp)
+- [179.largest number](./101-200/179.largest-number.cpp)
 - [189.rotate array](./101-200/189.rotate-array.cpp)
+- [190.reverse bits](./101-200/190.reverse-bits.cpp)
 - [191.number of 1 bits](./101-200/191.number-of-1-bits.cpp)
 - [199.binary tree right side view](./101-200/199.binary-tree-right-side-view.cpp)
 
@@ -120,6 +127,7 @@ Total: 225
 - [234.palindrome linked list](./201-300/234.palindrome-linked-list.cpp)
 - [237.delete node in a linked list](./201-300/237.delete-node-in-a-linked-list.cpp)
 - [238.product of array except self](./201-300/238.product-of-array-except-self.cpp)
+- [241.different ways to add parentheses](./201-300/241.different-ways-to-add-parentheses.cpp)
 - [242.valid anagram](./201-300/242.valid-anagram.cpp)
 - [257.binary tree paths](./201-300/257.binary-tree-paths.cpp)
 - [263.ugly number](./201-300/263.ugly-number.cpp)
@@ -196,6 +204,7 @@ Total: 225
 - [874.walking robot simulation](./801-900/874.walking-robot-simulation.cpp)
 - [876.middle of the linked list](./801-900/876.middle-of-the-linked-list.cpp)
 - [877.stone game](./801-900/877.stone-game.cpp)
+- [884.uncommon words from two sentences](./801-900/884.uncommon-words-from-two-sentences.cpp)
 - [885.spiral matrix iii](./801-900/885.spiral-matrix-iii.cpp)
 - [897.increasing order search tree](./801-900/897.increasing-order-search-tree.cpp)
 
