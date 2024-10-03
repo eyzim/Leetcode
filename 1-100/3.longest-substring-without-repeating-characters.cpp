@@ -75,7 +75,7 @@ class Solution1 {
 	}
 };
 
-class Solution {
+class Solution2 {
    public:
 	int lengthOfLongestSubstring(string s) {
 		unordered_map<char, int> mp;

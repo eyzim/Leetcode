@@ -1,6 +1,6 @@
 # LeetCode in C++
-Date: 2024/09/19
-Total: 234
+Date: 2024/10/04
+Total: 252
 ---
 
 ## Table of Contents
@@ -53,6 +53,7 @@ Total: 234
 - [24.swap nodes in pairs](./1-100/24.swap-nodes-in-pairs.cpp)
 - [26.remove duplicates from sorted array](./1-100/26.remove-duplicates-from-sorted-array.cpp)
 - [27.remove element](./1-100/27.remove-element.cpp)
+- [35.search insert position](./1-100/35.search-insert-position.cpp)
 - [36.valid sudoku](./1-100/36.valid-sudoku.cpp)
 - [43.multiply strings](./1-100/43.multiply-strings.cpp)
 - [46.permutations](./1-100/46.permutations.cpp)
@@ -61,11 +62,13 @@ Total: 234
 - [50.pow x n](./1-100/50.pow-x-n.cpp)
 - [54.spiral matrix](./1-100/54.spiral-matrix.cpp)
 - [57.insert interval](./1-100/57.insert-interval.cpp)
+- [58.length of last word](./1-100/58.length-of-last-word.cpp)
 - [59.spiral matrix ii](./1-100/59.spiral-matrix-ii.cpp)
 - [66.plus one](./1-100/66.plus-one.cpp)
 - [67.add binary](./1-100/67.add-binary.cpp)
 - [68.text justification](./1-100/68.text-justification.cpp)
 - [71.simplify path](./1-100/71.simplify-path.cpp)
+- [73.set matrix zeroes](./1-100/73.set-matrix-zeroes.cpp)
 - [74.search a 2 d matrix](./1-100/74.search-a-2-d-matrix.cpp)
 - [75.sort colors](./1-100/75.sort-colors.cpp)
 - [80.remove duplicates from sorted array ii](./1-100/80.remove-duplicates-from-sorted-array-ii.cpp)
@@ -94,6 +97,8 @@ Total: 234
 - [114.flatten binary tree to linked list](./101-200/114.flatten-binary-tree-to-linked-list.cpp)
 - [116.populating next right pointers in each node](./101-200/116.populating-next-right-pointers-in-each-node.cpp)
 - [117.populating next right pointers in each node ii](./101-200/117.populating-next-right-pointers-in-each-node-ii.cpp)
+- [118.pascals triangle](./101-200/118.pascals-triangle.cpp)
+- [119.pascals triangle ii](./101-200/119.pascals-triangle-ii.cpp)
 - [121.best time to buy and sell stock](./101-200/121.best-time-to-buy-and-sell-stock.cpp)
 - [128.longest consecutive sequence](./101-200/128.longest-consecutive-sequence.cpp)
 - [129.sum root to leaf numbers](./101-200/129.sum-root-to-leaf-numbers.cpp)
@@ -112,7 +117,9 @@ Total: 234
 
 ## 201-300
 - [200.number of islands](./201-300/200.number-of-islands.cpp)
+- [203.remove linked list elements](./201-300/203.remove-linked-list-elements.cpp)
 - [205.isomorphic strings](./201-300/205.isomorphic-strings.cpp)
+- [206.reverse linked list](./201-300/206.reverse-linked-list.cpp)
 - [209.minimum size subarray sum](./201-300/209.minimum-size-subarray-sum.cpp)
 - [215.kth largest element in an array](./201-300/215.kth-largest-element-in-an-array.cpp)
 - [217.contains duplicate](./201-300/217.contains-duplicate.cpp)
@@ -138,12 +145,15 @@ Total: 234
 - [295.find median from data stream](./201-300/295.find-median-from-data-stream.cpp)
 
 ## 301-400
+- [303.range sum query immutable](./301-400/303.range-sum-query-immutable.cpp)
 - [338.counting bits](./301-400/338.counting-bits.cpp)
+- [344.reverse string](./301-400/344.reverse-string.cpp)
 - [347.top k frequent elements](./301-400/347.top-k-frequent-elements.cpp)
 - [349.intersection of two arrays](./301-400/349.intersection-of-two-arrays.cpp)
 - [350.intersection of two arrays ii](./301-400/350.intersection-of-two-arrays-ii.cpp)
 - [373.find k pairs with smallest sums](./301-400/373.find-k-pairs-with-smallest-sums.cpp)
 - [383.ransom note](./301-400/383.ransom-note.cpp)
+- [386.lexicographical numbers](./301-400/386.lexicographical-numbers.cpp)
 - [387.first unique character in a string](./301-400/387.first-unique-character-in-a-string.cpp)
 - [389.find the difference](./301-400/389.find-the-difference.cpp)
 - [392.is subsequence](./301-400/392.is-subsequence.cpp)
@@ -152,6 +162,7 @@ Total: 234
 - [404.sum of left leaves](./401-500/404.sum-of-left-leaves.cpp)
 - [405.convert a number to hexadecimal](./401-500/405.convert-a-number-to-hexadecimal.cpp)
 - [429.n ary tree level order traversal](./401-500/429.n-ary-tree-level-order-traversal.cpp)
+- [432.all o one data structure](./401-500/432.all-o-one-data-structure.cpp)
 - [451.sort characters by frequency](./401-500/451.sort-characters-by-frequency.cpp)
 - [463.island perimeter](./401-500/463.island-perimeter.cpp)
 - [476.number complement](./401-500/476.number-complement.cpp)
@@ -180,6 +191,7 @@ Total: 234
 - [617.merge two binary trees](./601-700/617.merge-two-binary-trees.cpp)
 - [628.maximum product of three numbers](./601-700/628.maximum-product-of-three-numbers.cpp)
 - [637.average of levels in binary tree](./601-700/637.average-of-levels-in-binary-tree.cpp)
+- [641.design circular deque](./601-700/641.design-circular-deque.cpp)
 - [653.two sum iv input is a bst](./601-700/653.two-sum-iv-input-is-a-bst.cpp)
 - [655.print binary tree](./601-700/655.print-binary-tree.cpp)
 - [658.find k closest elements](./601-700/658.find-k-closest-elements.cpp)
@@ -192,6 +204,7 @@ Total: 234
 - [703.kth largest element in a stream](./701-800/703.kth-largest-element-in-a-stream.cpp)
 - [705.design hash set](./701-800/705.design-hash-set.cpp)
 - [709.to lower case](./701-800/709.to-lower-case.cpp)
+- [724.find pivot index](./701-800/724.find-pivot-index.cpp)
 - [725.split linked list in parts](./701-800/725.split-linked-list-in-parts.cpp)
 - [733.flood fill](./701-800/733.flood-fill.cpp)
 - [744.find smallest letter greater than target](./701-800/744.find-smallest-letter-greater-than-target.cpp)
@@ -245,6 +258,7 @@ Total: 234
 - [1367.linked list in binary tree](./1301-1400/1367.linked-list-in-binary-tree.cpp)
 - [1371.find the longest substring containing vowels in even counts](./1301-1400/1371.find-the-longest-substring-containing-vowels-in-even-counts.cpp)
 - [1379.find a corresponding node of a binary tree in a clone of that tree](./1301-1400/1379.find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.cpp)
+- [1381.design a stack with increment operation](./1301-1400/1381.design-a-stack-with-increment-operation.cpp)
 - [1389.create target array in the given order](./1301-1400/1389.create-target-array-in-the-given-order.cpp)
 - [1396.design underground system](./1301-1400/1396.design-underground-system.cpp)
 
@@ -257,6 +271,7 @@ Total: 234
 - [1475.final prices with a special discount in a shop](./1401-1500/1475.final-prices-with-a-special-discount-in-a-shop.cpp)
 - [1480.running sum of 1 d array](./1401-1500/1480.running-sum-of-1-d-array.cpp)
 - [1486.xor operation in an array](./1401-1500/1486.xor-operation-in-an-array.cpp)
+- [1497.check if array pairs are divisible by k](./1401-1500/1497.check-if-array-pairs-are-divisible-by-k.cpp)
 
 ## 1501-1600
 - [1502.can make arithmetic progression from sequence](./1501-1600/1502.can-make-arithmetic-progression-from-sequence.cpp)
@@ -273,6 +288,7 @@ Total: 234
 - [1700.number of students unable to eat lunch](./1701-1800/1700.number-of-students-unable-to-eat-lunch.cpp)
 - [1720.decode xo red array](./1701-1800/1720.decode-xo-red-array.cpp)
 - [1732.find the highest altitude](./1701-1800/1732.find-the-highest-altitude.cpp)
+- [1769.minimum number of operations to move all balls to each box](./1701-1800/1769.minimum-number-of-operations-to-move-all-balls-to-each-box.cpp)
 
 ## 1801-1900
 - [1805.number of different integers in a string](./1801-1900/1805.number-of-different-integers-in-a-string.cpp)
@@ -311,10 +327,12 @@ Total: 234
 - [2415.reverse odd levels of binary tree](./2401-2500/2415.reverse-odd-levels-of-binary-tree.cpp)
 - [2419.longest subarray with maximum bitwise and](./2401-2500/2419.longest-subarray-with-maximum-bitwise-and.cpp)
 - [2471.minimum number of operations to sort a binary tree by level](./2401-2500/2471.minimum-number-of-operations-to-sort-a-binary-tree-by-level.cpp)
+- [2491.divide players into teams of equal skill](./2401-2500/2491.divide-players-into-teams-of-equal-skill.cpp)
 
 ## 2501-2600
 - [2500.delete greatest value in each row](./2501-2600/2500.delete-greatest-value-in-each-row.cpp)
 - [2540.minimum common value](./2501-2600/2540.minimum-common-value.cpp)
+- [2574.left and right sum differences](./2501-2600/2574.left-and-right-sum-differences.cpp)
 
 ## 2801-2900
 - [2807.insert greatest common divisors in linked list](./2801-2900/2807.insert-greatest-common-divisors-in-linked-list.cpp)
